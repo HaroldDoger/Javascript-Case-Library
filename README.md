@@ -1,2 +1,2 @@
-# Coding-Projects
-Projects done while learning different programming languages
+# Javascript Case Library
+Test Cases and Examples done while learning Javascript
