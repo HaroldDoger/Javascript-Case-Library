@@ -20,3 +20,9 @@ function isTriangle(a,b,c)
   }
   return true; //if all conditions are met, return true
 }
+
+//best practice/ clever solution
+function isTriangle(a,b,c)
+{
+   return a + b > c && a + c > b && c + b > a;
+}
