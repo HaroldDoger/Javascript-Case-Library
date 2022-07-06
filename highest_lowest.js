@@ -17,5 +17,5 @@ function highAndLow(numbers) {
         }
     }
 
-    return maxNum + " " + minNum      //return resuls of max and min
+    return maxNum + " " + minNum      //return results of max and min
 }
