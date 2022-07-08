@@ -6,7 +6,12 @@ function isPalindrome(x) {
     return reverseStr === lowRegStr;
   }
   
-  
+  //clever/best practice solution 
+    //   const isPalindrome = (x) => {
+    //     return x.split("").reverse().join("").toLowerCase() === x.toLowerCase() ? true : false
+    //   }
+
+    
   // [^A-Z] matches anything that is not enclosed between A and Z
   
   // [^a-z] matches anything that is not enclosed between a and z
