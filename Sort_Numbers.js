@@ -6,5 +6,13 @@
 // solution(null); // should return []
 
 function solution(nums){
-    
+    return nums !== null ? nums.sort((a,b) => a-b) : []
 }
+
+
+//best practice solution
+// function solution(nums){
+//     return (nums || []).sort(function(a, b){
+//       return a - b
+//     });
+//   }
