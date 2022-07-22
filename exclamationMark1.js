@@ -6,4 +6,4 @@ function remove (string) {
 
    //best practice one line solution
    //const remove = s => s.replace(/!$/, '');
-   //40
+   //41
