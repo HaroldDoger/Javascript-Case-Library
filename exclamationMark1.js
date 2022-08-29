@@ -2,3 +2,7 @@
 function remove (string) {
     return string.replace(/!$/,'')
    }
+
+
+   //best practice one line solution
+   //const remove = s => s.replace(/!$/, '');
