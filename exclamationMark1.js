@@ -6,3 +6,4 @@ function remove (string) {
 
    //best practice one line solution
    //const remove = s => s.replace(/!$/, '');
+   //1
