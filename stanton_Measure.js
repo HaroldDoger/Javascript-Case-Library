@@ -6,4 +6,13 @@
 // The Stanton measure of [1, 4, 3, 2, 1, 2, 3, 2] is 3, because 1 occurs 2 times in the array and 2 occurs 3 times.
 
 // The Stanton measure of [1, 4, 1, 2, 11, 2, 3, 1] is 1, because 1 occurs 3 times in the array and 3 occurs 1 time.
-//1
+
+const stantonMeasure = array =>
+        array.filter(element =>
+               element == array.filter(element2 => element2 === 1).length).length
+
+//best practice solution
+//function stantonMeasure(arr) {
+    //const count = n => arr.filter(x => x === n).length;
+    //return count(count(1));
+    // }
