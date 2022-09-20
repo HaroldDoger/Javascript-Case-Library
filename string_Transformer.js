@@ -28,7 +28,7 @@ function stringTransformer(str) {
   // function stringTransformer(str) {
   //  let transformStr = str => str.split(' ').reverse().join(' ').split('')
   //  .map(l => l === l.toUpperCase() ? l.toLowerCase() : l.toUpperCase()).join('')
-  //  return console.log(transformStr); a
+  //  return console.log(transformStr); 
   // }
 
   //best practice solution
