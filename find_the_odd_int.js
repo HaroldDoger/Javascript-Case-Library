@@ -20,3 +20,6 @@ function findOdd(arr) {
     }
     
   }
+
+  //clever solution
+  const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
