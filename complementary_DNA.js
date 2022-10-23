@@ -26,3 +26,21 @@ function DNAStrand(dna){
       return sequence[matched];
     });
   }
+
+  //arrow function solution
+  let pairs = {A:'T',T:'A',C:'G',G:'C'};
+    const DNAStrand = dna => dna.replace(/./g, c => pairs[c]);
+
+  //best practice solution
+  function DNAStrand(dna) {
+    return dna.replace(/./g, function(c) {
+      return DNAStrand.pairs[c]
+    })
+  }
+  
+  DNAStrand.pairs = {
+    A: 'T',
+    T: 'A',
+    C: 'G',
+    G: 'C',
+  }
