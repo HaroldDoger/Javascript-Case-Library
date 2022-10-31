@@ -30,3 +30,16 @@ function stringTransformer(str) {
   //  .map(l => l === l.toUpperCase() ? l.toLowerCase() : l.toUpperCase()).join('')
   //  return console.log(transformStr);
   // }
+
+  //best practice solution
+  function stringTransformer(str) {
+    return str
+      .split(' ')
+      .reverse()
+      .join(' ')
+      .split('')
+      .map(v => v == v.toUpperCase() ?
+        v.toLowerCase() :
+        v.toUpperCase())
+      .join('');
+  }
