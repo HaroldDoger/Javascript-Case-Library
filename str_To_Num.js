@@ -22,3 +22,6 @@ const stringToNumber = function(str){
   var stringToNumber = function(str){
     return Number(str);
   }
+
+  //single line
+  const stringToNumber = str => Number(str)
