@@ -17,4 +17,8 @@ function solution(string) {
     return newString
   }
     
+  //best practice solution using regex
+  function solution(string) {
+    return(string.replace(/([A-Z])/g, ' $1'));
   
+  }
