@@ -15,3 +15,10 @@ for(let i = 0 ; i < numbers.length; i++)
   return sum
   
 }
+
+//best practice solution
+function squareSum(numbers){
+  return numbers.reduce(function(sum, n){
+    return (n*n) + sum;
+  }, 0)
+}
