@@ -22,3 +22,7 @@ function squareSum(numbers){
     return (n*n) + sum;
   }, 0)
 }
+//arrow function solution
+function squareSum(numbers){
+  return numbers.reduce((sum,num) => sum + (num * num), 0);
+}
